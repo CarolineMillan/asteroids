@@ -15,6 +15,7 @@ def main():
 
     # game loop
     while True:
+        player.update(dt)
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
                 return
@@ -23,6 +24,7 @@ def main():
         player.draw(screen)
         pygame.display.flip()
         dt = clock.tick(60) / 1000
+        
 
 if __name__ == "__main__":
     main()
