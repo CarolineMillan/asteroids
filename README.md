@@ -1,8 +1,8 @@
-# Asteroids games in Python
+# Asteroids game in Python
+
 A guided project from [boot.dev](https://www.boot.dev/)
 
-
-### Extending the Project (from boot.dev's recommendations)
+## Extending the Project (from boot.dev's recommendations)
 
 You've done all the required steps, but if you'd like to make the project your own, here are some ideas:
 
